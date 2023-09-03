@@ -1,5 +1,6 @@
-import './globals.css'
-import { NavBar } from '@/components'
+import "./globals.css";
+import "./pages.css";
+import { NavBar } from "@/components";
 
 export default function RootLayout({ children }) {
   return (
@@ -14,5 +15,5 @@ export default function RootLayout({ children }) {
         {children}
       </body>
     </html>
-  )
+  );
 }
