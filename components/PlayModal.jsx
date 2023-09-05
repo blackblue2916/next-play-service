@@ -9,8 +9,7 @@ export default function PlayModal({ videoLink, bj_name, title }) {
         <div className="play-modal-container">
           <div className="mx-auto mb-3">
             <p className="text-yellow-400 text-[14px] font-normal text-center px-10">
-              您目前觀看的是低碼率標準清晰度視頻,會員可下載高碼率1080P-60幀 /
-              4K-60幀無損畫質高清視頻!!!
+              您目前觀看的是低碼率標準清晰度視頻,會員可下載高碼率60幀無損畫質高清視頻!!!
             </p>
             {videoLink && (
               <iframe

@@ -59,7 +59,7 @@ export default function GetVideo({ searchParams }) {
   async function verifyPlayRequest(videoData) {
     setTimeout(function () {
       // console.log(tempData.conn_key);
-      fetch("https:www.bjloveyou.com/video/verify-play", {
+      fetch("https://www.bjloveyou.com/video/verify-play", {
         method: "post",
         mode: "cors",
         credentials: "include",
