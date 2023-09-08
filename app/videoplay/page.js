@@ -61,11 +61,12 @@ export default function GetVideo({ searchParams }) {
       // console.log(tempData.conn_key);
       fetch("https://www.bjloveyou.com/video/verify-play", {
         method: "post",
-        mode: "no-cors",
+        mode: "cors",
         credentials: "include",
         headers: {
           // 这里可以加入一个安全 KEY 进一步加强安全性
           "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
         },
         body: JSON.stringify({
           conn_key: videoData.conn_key,
